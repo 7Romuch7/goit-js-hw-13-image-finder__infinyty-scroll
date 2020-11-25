@@ -1,0 +1,17 @@
+.stats-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(85, 38, 0);
+    line-height: 2;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}

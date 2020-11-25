@@ -1,0 +1,38 @@
+.wripper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.photo-card {
+  padding: 0 15px;
+  margin-bottom: 30px;
+  width: 100%;
+
+  &__img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: calc((100% - 4 * 15px) / 2);
+        width: 350px;
+        margin: 15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: calc((100% - 6 * 15px) / 3);
+        width: 370px;
+    }
+  }
+}

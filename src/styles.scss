@@ -1,0 +1,15 @@
+@import './scss/photoCard.scss';
+@import './scss/form.scss';
+@import './scss/btn.scss';
+@import './scss/lightbox.scss';
+@import "./scss/icons.scss";
+
+html { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#327a0259, #06ec5ed0, #03ad44b7) fixed;
+}
